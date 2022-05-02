@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+
+body{
+    background-color: hsl(218, 44%, 22%);
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    font-family: 'Outfit', sans-serif;
+}
+.qr-body{
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 20%;
+    border-radius: 15px;
+    padding-bottom: 5%;
+}
+.qr-image{
+    display: flex;
+    justify-content: center;
+}
+img{
+   width: 80%;
+    border-radius: 15px;
+    margin: 10px;
+    justify-content: center;
+
+}
+.qr-heading{
+    font-size: 12px;
+   text-align:center;
+    width: 100%;
+}
+    
+.qr-summary{
+    font-size: 10px;
+    margin: 5px;
+    text-align: center;
+}
